@@ -1,5 +1,15 @@
 # Portfolio
 
+[Project](http://localhost:4200/)
+
+[GitHub](https://github.com/deryadenizz/portfolio)
+
+[Angular GitHub](https://github.com/angular/angular-cli)
+[Angular IO](https://angular.io/)
+[npm](https://www.npmjs.com/)
+
+# Angular Kurulumları
+
 node -v
 npm -v
 npm version
@@ -14,17 +24,12 @@ ng serve
 ng serve --port 9999
 ng --help
 
-[Project](http://localhost:4200/)
+# Angular npm Kurulumları
 
-[GitHub](https://github.com/deryadenizz/portfolio)
-
-[Angular GitHub](https://github.com/angular/angular-cli)
+> npm install bootstrap
+> npm install font-awesome
 
 ---
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
