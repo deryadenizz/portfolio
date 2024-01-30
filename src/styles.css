@@ -13,3 +13,24 @@
   font-family: "Karla", sans-serif;
   src: url("assets/Karla-Regular.ttf");
 }
+:root {
+  --bgcolor-1: #f2f2f2;
+  --bgcolor-2: #bfc3d9;
+  --textcolor: #0d0d0d;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background-color: var(--bgcolor-1);
+  color: var(--textcolor);
+}
+a {
+  text-decoration: none;
+}
