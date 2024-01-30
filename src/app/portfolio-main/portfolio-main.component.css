@@ -229,14 +229,10 @@ a:hover {
   border-radius: 35px;
   color: #484f58;
 }
-.profile-pic {
-  width: 500px;
-  height: auto;
-  max-height: 400px;
-  object-fit: cover;
-  margin: 0 auto;
-  margin-left: 17%;
-  margin-top: 22%;
+img.profile-pic {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
 }
 .about-paragraphs {
   width: 75%;
