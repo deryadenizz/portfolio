@@ -10,7 +10,9 @@ footer a {
   width: 60px; /* Link elementinin genişliği */
   height: 60px; /* Link elementinin yüksekliği */
 }
-
+footer {
+  margin-bottom: 40px;
+}
 .social-links {
   margin-top: 60px;
   display: flex;

@@ -4,15 +4,17 @@
   box-sizing: border-box;
   font-family: "Barlow Condensed", sans-serif;
 }
+
 .navbar {
   position: relative;
-  width: auto;
+  width: 100%;
   height: 70px;
   background-color: #ffc91c;
   justify-content: right;
   align-items: center;
   display: flex;
   padding-right: 3rem;
+  z-index: 100;
 }
 .navbar ul {
   display: flex;
