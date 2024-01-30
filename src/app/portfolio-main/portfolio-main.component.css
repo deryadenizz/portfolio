@@ -1,8 +1,17 @@
+.projects {
+  background-color: var(--bgcolor-2);
+  margin-top: 50px;
+  padding-top: 60px;
+}
 .wrap {
   width: 100%;
   padding: 3.5em 0;
 }
-
+h2 {
+  font-size: 4em;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #484f58;
+}
 .projects,
 .project-box {
   text-align: center;
@@ -16,8 +25,11 @@
 .circle-icon {
   display: inline-block;
   font-size: 2em;
-  padding: 1.1em 1.15em;
+  padding: 1.1em;
   color: #484f58;
+  width: 110px;
+  height: 110px;
+  margin-top: 20px;
   /*border-radius*/
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -44,7 +56,7 @@
 }
 
 .project-entry {
-  margin-top: 70px;
+  margin-top: 40px;
   padding: 0 0.5em;
 }
 
