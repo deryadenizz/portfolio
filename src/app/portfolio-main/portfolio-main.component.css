@@ -2,6 +2,18 @@
   background-color: var(--bgcolor-2);
   margin-top: 50px;
   padding-top: 60px;
+  padding-bottom: 60px;
+}
+.project-1,
+.project-3 {
+  background-color: var(--bgcolor-1);
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.project-2 {
+  background-color: var(--bgcolor-2);
+  padding-top: 100px;
+  padding-bottom: 60px;
 }
 .wrap {
   width: 100%;
@@ -11,6 +23,13 @@ h2 {
   font-size: 4em;
   font-family: "Barlow Condensed", sans-serif;
   color: #484f58;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  line-height: 1.9;
+  padding: 10px;
+  text-align: justify;
 }
 .projects,
 .project-box {
@@ -62,4 +81,142 @@ h2 {
 
 .project-entry p {
   margin-bottom: 10px;
+}
+a {
+  background-color: #ffc91c;
+  border-radius: 25px;
+  transition: all 0.15s linear;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+a:hover {
+  transform: scale(1.1);
+  background-color: #ffc91c;
+  border-radius: 25px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  background-color: #484f58;
+  color: var(--bgcolor-1);
+}
+.primary-link:hover {
+  background-color: #484f58;
+  color: var(--bgcolor-1);
+}
+
+.secondary-link {
+  color: #484f58;
+}
+.card {
+  padding: 50px;
+  background-color: var(--bgcolor-1);
+  border: none;
+}
+/* Timeline CSS */
+.timeline h1 {
+  margin-bottom: 25px;
+}
+.timeline h2 {
+  font-size: 18px;
+  font-family: "IM Fell DW Pica SC", serif;
+  color: #484f58;
+}
+.left h2 {
+  text-align: left;
+}
+.right h2 {
+  text-align: right;
+}
+
+.timeline-container {
+  background-color: var(--bgcolor-2);
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: #ffc91c;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline .content {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.timeline .content::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: var(--bgcolor-2);
+  border: 4px solid #ffc91c;
+  top: 50%;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+}
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 50%;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent var(--bgcolor-1);
+}
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 50%;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid var(--bgcolor-1);
+  border-width: 10px 10px 10px 0;
+  border-color: transparent var(--bgcolor-1) transparent transparent;
+}
+.right::after {
+  left: -12px;
+}
+
+.timeline-content {
+  padding: 20px 30px;
+  background-color: var(--bgcolor-1);
+  position: relative;
+  border-radius: 35px;
+  color: #484f58;
 }
