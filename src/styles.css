@@ -4,3 +4,12 @@
 
 /* Font awesome */
 @import "font-awesome/css/font-awesome.min.css";
+
+@font-face {
+  font-family: "Barlow Condensed", sans-serif;
+  src: url("assets/BarlowCondensed-Regular.ttf");
+}
+@font-face {
+  font-family: "Karla", sans-serif;
+  src: url("assets/Karla-Regular.ttf");
+}

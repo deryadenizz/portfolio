@@ -1,0 +1,21 @@
+:root {
+  --bgcolor-1: "#E9EBF2";
+  --bgcolor-2: "#BFC3D9";
+  --textcolor: "#0D0D0D";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background-color: var(--bgcolor-1);
+  color: var(--textcolor);
+}
+a {
+  text-decoration: none;
+}
