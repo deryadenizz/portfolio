@@ -1,0 +1,72 @@
+.container {
+  margin-top: 50px;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+  color: #ffc91c;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #445360;
+  padding: 1px;
+  background: var(--bgcolor-1);
+  border: 1px solid var(--bgcolor-1);
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: -33px;
+  position: relative;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  color: #445360;
+}
+p {
+  text-align: justify;
+  padding-top: 12px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: #445360;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  margin-right: 8px;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: #fcf8f2;
+  color: #445360;
+  border: 1px solid #445360;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  margin-left: 8px;
+}
+
+.frame {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 45px 50px 50px 50px;
+  border: solid #ffc91c;
+}
+.about-me-links {
+  text-align: center;
+  justify-content: center;
+}
