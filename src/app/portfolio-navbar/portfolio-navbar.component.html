@@ -1,1 +1,60 @@
-<p>portfolio-navbar works!</p>
+<nav>
+  <div class="navbar">
+    <ul>
+      <li
+        class="list"
+        (click)="setActiveTab(0)"
+        [class.active]="activeTab === 0"
+      >
+        <a href="#">
+          <span class="icon"><fa-icon [icon]="faHouse"></fa-icon></span>
+          <span class="text">Home</span>
+        </a>
+      </li>
+      <li
+        class="list"
+        (click)="setActiveTab(1)"
+        [class.active]="activeTab === 1"
+      >
+        <a href="#">
+          <span class="icon"><fa-icon [icon]="faBriefcase"></fa-icon></span>
+          <span class="text">Projects</span>
+        </a>
+      </li>
+      <li
+        class="list"
+        (click)="setActiveTab(2)"
+        [class.active]="activeTab === 2"
+      >
+        <a href="#">
+          <span class="icon"><fa-icon [icon]="faTimeline"></fa-icon></span>
+          <span class="text">Timeline</span>
+        </a>
+      </li>
+      <li
+        class="list"
+        (click)="setActiveTab(3)"
+        [class.active]="activeTab === 3"
+      >
+        <a href="#">
+          <span class="icon"><fa-icon [icon]="faUser"></fa-icon></span>
+          <span class="text">About Me</span>
+        </a>
+      </li>
+      <li
+        class="list"
+        (click)="setActiveTab(4)"
+        [class.active]="activeTab === 4"
+      >
+        <a href="#">
+          <span class="icon"><fa-icon [icon]="faEnvelope"></fa-icon></span>
+          <span class="text">Contact</span>
+        </a>
+      </li>
+      <div
+        class="indicator"
+        [ngStyle]="{ transform: 'translateX(' + activeTab * 70 + 'px)' }"
+      ></div>
+    </ul>
+  </div>
+</nav>
