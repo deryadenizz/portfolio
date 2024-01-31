@@ -1,6 +1,6 @@
 .projects {
   background-color: var(--bgcolor-2);
-  margin-top: 50px;
+  margin-top: 85px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -242,4 +242,8 @@ img.profile-pic {
 }
 .email-link {
   color: #484f58;
+  font-size: 30px;
+}
+.about-me h2 {
+  font-size: 28px;
 }
